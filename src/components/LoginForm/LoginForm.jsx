@@ -297,7 +297,7 @@ function LoginForm() {
                       Iniciar sesión
                     </Button>
 
-                     <a href={`${baseURL}/userclient/auth/google`}>
+                     <a href={`https://prueba-terapeando.herokuapp.com/userclient/auth/google`}>
                       <Button bg='green.100' color='#285e61'>
                         Inicia sesión con &nbsp;<FaGoogle />
                       </Button>
