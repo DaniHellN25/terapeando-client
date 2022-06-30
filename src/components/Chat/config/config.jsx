@@ -70,7 +70,7 @@ const config = {
           options:[
             {
               text:"Sitio Web",
-              url:"http://localhost:3000",
+              url:"https://terapeando.vercel.app",
               id:1,
             },{
               text: "Email",
