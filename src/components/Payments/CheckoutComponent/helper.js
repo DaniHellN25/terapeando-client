@@ -1,4 +1,6 @@
-const API = 'http://localhost:3001';
+const baseURL = process.env.REACT_APP_API || LOCAL_HOST;
+
+const API = baseURL;
 
 export async function fetchFromApi(endpoint, opts){
    const { method, body } = { method: 'POST', body: null, ...opts };
