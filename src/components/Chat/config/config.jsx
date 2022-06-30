@@ -53,11 +53,11 @@ const config = {
           options:[
             {
               text:"Psicologia",
-              url:"http://localhost:3000/home",
+              url:"https://terapeando.vercel.app/home",
               id:1,
             },{
               text:"Blog de Psicologia",
-              url:"http://localhost:3000/blog",
+              url:"https://terapeando.vercel.app/blog",
               id:3
             }
           ]
@@ -70,7 +70,7 @@ const config = {
           options:[
             {
               text:"Sitio Web",
-              url:"http://localhost:3000",
+              url:"https://terapeando.vercel.app",
               id:1,
             },{
               text: "Email",
