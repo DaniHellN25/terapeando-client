@@ -1,6 +1,4 @@
-const baseURL = process.env.REACT_APP_API || LOCAL_HOST;
-
-const API = baseURL;
+const API = 'https://prueba-terapeando.herokuapp.com';
 
 export async function fetchFromApi(endpoint, opts){
    const { method, body } = { method: 'POST', body: null, ...opts };
